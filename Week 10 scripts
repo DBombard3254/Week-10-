@@ -1,0 +1,6 @@
+#!/bin/bash
+telnet www.amazon.com 80
+GET / HTTP/1.0
+tcpdump
+tcpdump tcp
+tcpdump udp or port 80
